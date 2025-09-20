@@ -80,4 +80,4 @@ simulate(robot) {
 * Customize logic inside `simulate(robot)` to implement different algorithms.
 * You can upload your js script and maps
 * Map must be 720x480 black and white
-* 
+* Left and right click on the map to insert target and starting point respectively 
