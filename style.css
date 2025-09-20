@@ -1,0 +1,174 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.screen {
+    padding: 30px;
+    display: none;
+}
+
+.screen.active {
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #34495e;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.home-content {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.home-content p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px;
+}
+
+.btn:hover {
+    background: #2980b9;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.btn-large {
+    padding: 15px 40px;
+    font-size: 1.3rem;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+}
+
+select:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+.game-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#gameCanvas {
+    background: #ecf0f1;
+    border: 2px solid #bdc3c7;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: block;
+}
+
+.instructions {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    border-left: 4px solid #3498db;
+}
+
+.instructions h3 {
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.instructions ul {
+    padding-left: 20px;
+}
+
+.instructions li {
+    margin-bottom: 8px;
+    color: #7f8c8d;
+}
+
+.robot-status {
+    background: #34495e;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.status-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.status-value {
+    font-weight: 600;
+    color: #3498db;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
